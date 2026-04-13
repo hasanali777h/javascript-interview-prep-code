@@ -68,3 +68,20 @@
 // obj.age = "forty"; // ❌ TypeError: Age must be a number
 
 // console.log(!(25 > 25));
+
+// let a = 10;
+// function test() {
+//   console.log(a);
+//   let a = 20;
+// }
+// console.log(a);
+// test(); 
+
+// for (var i = 0; i < 3; i++) {
+//   setTimeout(() => console.log(i), 1000);
+// }
+
+// console.log('Start');
+// setTimeout(() => console.log('Timeout'), 0);
+// Promise.resolve().then(() => console.log('Promise'));
+// console.log('End');
